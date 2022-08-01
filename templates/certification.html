@@ -1,0 +1,208 @@
+{% extends 'base.html' %}
+{% load static %}
+{% static "certificates" as baseUrl %}
+{% block body %}
+
+	<!--	Start Portfolio
+	===================================================-->
+	<section id="portfolio" class="py_80 bg_secondery full_row">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+					<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
+	                    <h2 class="title text-uppercase"><span class="line_double mx-auto color_default">CERTIFICATIONS</span>I ACHIEVED</h2>
+	                    <span class="sub_title">There are some certification I Achieved Previously</span>
+	                </div>
+				</div>
+				<div class="col-md-12 col-lg-12">
+					<div class="my_portfolio" id="tab-panel"> 
+              			<!--Filter-->
+						<div class="row">
+							<div class="col-md-12">
+								<div class="filters mb_30 w-100 text-center">
+									<ul class="filter-tabs mx-auto d-inline-block">
+										<li class="active filter" data-role="button" data-filter="all">All Certificates</li>
+										<li class="filter" data-role="button" data-filter=".linux">Linux </li>
+										<li class="filter" data-role="button" data-filter=".bugbounty">Bug Bounty </li>
+										<li class="filter" data-role="button" data-filter=".programs">Programs</li>
+										<li class="filter" data-role="button" data-filter=".cybersecurity">Cyber Security</li>
+										<li class="filter" data-role="button" data-filter=".networking">Networking</li>
+										<li class="filter" data-role="button" data-filter=".iot">IOT</li>
+										
+									</ul>
+								</div>
+							</div>
+						</div>	
+			              
+						<div class="filter-list">
+							<div class="portfolio-items">
+								<div class="row">
+								
+								  	<div class="column mix mix_all graphic development wordpress mb_30 col-md-4 col-lg-4">
+										<div class="default-portfolio-item">
+											<a href="{% static '/certificates/pdf/01.pdf' %}">
+												<img src="{% static '/certificates/img/01.jpg' %}" alt="image" />
+												<div class="overlay-box">
+													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+													<div class="tag">
+														<ul>
+															<li>Cyber ANZ programs, </li>
+															<li> programs </li>	
+														</ul>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+								
+								  	<div class="column mix mix_all graphic development wordpress mb_30 col-md-4 col-lg-4">
+										<div class="default-portfolio-item">
+											<a href="{% static '/certificates/pdf/02.pdf' %}">
+												<img src="{% static '/certificates/img/02.jpg' %}" alt="image" />
+												<div class="overlay-box">
+													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+													<div class="tag">
+														<ul>
+															<li>Introduction to Cybersecurity,</li>
+															<li> cybersecurity </li>
+														</ul>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+								
+								  	<div class="column mix mix_all graphic development wordpress mb_30 col-md-4 col-lg-4">
+										<div class="default-portfolio-item">
+											<a href="{% static '/certificates/pdf/03.pdf' %}">
+												<img src="{% static '/certificates/img/03.jpg' %}" alt="image" />
+												<div class="overlay-box">
+													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+													<div class="tag">
+														<ul>
+															<li>Introduction to IOT,</li>
+															<li>IOT</li>
+														</ul>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+								
+								  	<div class="column mix mix_all graphic development wordpress mb_30 col-md-4 col-lg-4">
+										<div class="default-portfolio-item">
+											<a href="{% static '/certificates/pdf/04.pdf' %}">
+												<img src="{% static '/certificates/img/04.jpg' %}" alt="image" />
+												<div class="overlay-box">
+													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+													<div class="tag">
+														<ul>
+															<li>ISEA, </li>
+															<li> cybersecurity </li>
+														</ul>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+								
+								  	<div class="column mix mix_all graphic development wordpress mb_30 col-md-4 col-lg-4">
+										<div class="default-portfolio-item">
+											<a href="{% static '/certificates/pdf/05.pdf' %}">
+												<img src="{% static '/certificates/img/05.jpg' %}" alt="image" />
+												<div class="overlay-box">
+													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+													<div class="tag">
+														<ul>
+															<li>NSE 1,</li>
+															<li> cybersecurity </li>
+														</ul>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+								
+								  	<div class="column mix mix_all graphic development wordpress mb_30 col-md-4 col-lg-4">
+										<div class="default-portfolio-item">
+											<a href="{% static '/certificates/pdf/06.pdf' %}">
+												<img src="{% static '/certificates/img/06.jpg' %}" alt="image" />
+												<div class="overlay-box">
+													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+													<div class="tag">
+														<ul>
+															<li>CyberSecurity Essentials,</li>
+															<li> cybersecurity </li>
+														</ul>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+								
+								  	<div class="column mix mix_all graphic development wordpress mb_30 col-md-4 col-lg-4">
+										<div class="default-portfolio-item">
+											<a href="{% static '/certificates/pdf/07.pdf' %}">
+												<img src="{% static '/certificates/img/07.jpg' %}" alt="image" />
+												<div class="overlay-box">
+													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+													<div class="tag">
+														<ul>
+															<li>NDG Linux Essentials,</li>
+															<li> linux </li>
+														</ul>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+								
+								  	<div class="column mix mix_all graphic development wordpress mb_30 col-md-4 col-lg-4">
+										<div class="default-portfolio-item">
+											<a href="{% static '/certificates/pdf/08.pdf' %}">
+												<img src="{% static '/certificates/img/08.jpg' %}" alt="image" />
+												<div class="overlay-box">
+													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+													<div class="tag">
+														<ul>
+															<li> NDG Linux Unhatched,</li>
+															<li> linux </li>
+														</ul>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+								
+								  	<div class="column mix mix_all graphic development wordpress mb_30 col-md-4 col-lg-4">
+										<div class="default-portfolio-item">
+											<a href="{% static '/certificates/pdf/09.pdf' %}">
+												<img src="{% static '/certificates/img/09.jpg' %}" alt="image" />
+												<div class="overlay-box">
+													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+													<div class="tag">
+														<ul>
+															<li>Android Bug Bounty | EC Council,</li>
+															<li>bugbounty </li>
+														</ul>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+								
+								
+								
+								</div>
+							</div>
+						</div>		
+			        </div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--	End Portfolio
+	===================================================-->
+
+{% endblock %}
+

@@ -1,0 +1,237 @@
+{% extends 'base.html' %}
+{% load static %}
+{% static "uploads" as baseUrl %}
+{% block body %}
+
+
+<!-- Wrapper Start 
+==================================================-->
+<div id="page_wrapper">
+	<div class="row">
+
+    <!--    Page Banner Start
+    ==================================================-->
+    <section class="banner background9 overlay_three full_row">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <div class="banner_text text-center">
+                        <h1 class="page_banner_title color_white text-uppercase">My Portfolio</h1>
+                        <div class="breadcrumbs m-auto d-inline-block">
+                            <ul>
+                                <li class="hover_gray"><a href="index-5.html">Home</a></li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                                <li class="color-default">Portfolio</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!--    Page Banner End
+    ==================================================-->
+     <!--    Blog Post Start
+    ==================================================-->
+    <section class="blog_area py_80 bg_secondery full_row">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-7 col-lg-8">
+    				<div class="blog_list mb_60">
+    					
+    					<div class="blog_item mb_30 wow animated slideInUp">
+							<div class="comments">
+								<i class="fa fa-comment" aria-hidden="true"></i>
+								<span class="color_white">8</span>
+							</div>
+							<div class="blog_img overlay_one"><img src="{% static '/portfolio/gcp.jpeg' %}" alt="image"></div>
+							<div class="blog_content bg_white">
+								<div class="blog_title">
+									<a class="color_primary" href="#"><h5>Google Cloud Platform [ GCP ]   </h5></a>
+								</div>
+								<p class="mt_15 mb_30">Completed Some Advance Lab Inside Goole Cloud Platform , and gained some of Badges </p>
+								
+								<div class="admin">
+									<img src="images/about/02.jpg" alt="image">
+									<span class="color_white">Subhadeep Pramanik</span>
+								</div>
+								<div class="date float-right color_primary">21 November 2021</div>
+							</div>
+						</div>
+						
+						<div class="blog_item mb_30 wow animated slideInUp">
+							<div class="comments">
+								<i class="fa fa-comment" aria-hidden="true"></i>
+								<span class="color_white">23</span>
+							</div>
+							<div class="blog_img overlay_one"><img src="{% static '/portfolio/goofuzz.jpeg' %}" alt="image"></div>
+							<div class="blog_content bg_white">
+								<div class="blog_title">
+									<a class="color_primary" href="#"><h5>Usage Of GooFuzz</h5></a>
+								</div>
+								<p class="mt_15 mb_30">https://github.com/m3n0sd0n4ld/GooFuzz  --> use that tool for finding hidden files and might access hiden files</p>
+								
+								<div class="admin">
+									<img src="images/about/02.jpg" alt="image">
+									<span class="color_white">Subhadeep Pramanik</span>
+								</div>
+								<div class="date float-right color_primary">15 July 2022</div>
+							</div>
+						</div>
+						<div class="blog_item mb_30 wow animated slideInUp">
+							<div class="comments">
+								<i class="fa fa-comment" aria-hidden="true"></i>
+								<span class="color_white">23</span>
+							</div>
+							<div class="blog_img overlay_one"><img src="{% static '/portfolio/nasa.jpeg' %}" alt="image"></div>
+							<div class="blog_content bg_white">
+								<div class="blog_title">
+									<a class="color_primary" href="#"><h5>NASA </h5></a>
+								</div>
+								<p class="mt_15 mb_30">www.nasa.gov has hidden files , can be access using goofuzz tools, use that ..</p>
+								
+								<div class="admin">
+									<img src="images/about/02.jpg" alt="image">
+									<span class="color_white">Subhadeep Pramanik</span>
+								</div>
+								<div class="date float-right color_primary">16 july 2022</div>
+							</div>
+						</div>
+						<div class="blog_item mb_30 wow animated slideInUp">
+							<div class="comments">
+								<i class="fa fa-comment" aria-hidden="true"></i>
+								<span class="color_white">23</span>
+							</div>
+							<div class="blog_img overlay_one"><img src="{% static '/portfolio/elearn.png' %}" alt="image"></div>
+							<div class="blog_content bg_white">
+								<div class="blog_title">
+									<a class="color_primary" href="#"><h5>eLearn Institution | Free | Open Source</h5></a>
+								</div>
+								<p class="mt_15 mb_30">This is Created By Team ICSRO , An Open Source Project to Educate Every Students for free, Need Your Support  </p>
+								<p>email -elearninstitution@gmail.com | help to - elearninstitution.cf</p>
+								
+								
+							</div>
+						</div>
+    				</div>
+    				<nav>
+					  <ul class="pagination wow animated slideInUp full_row">
+					    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+					    <li class="page-item"><a class="page-link" href="#">2</a></li>
+					    <li class="page-item"><a class="page-link" href="#">3</a></li>
+					    <li class="page-item">
+					      <a class="page-link" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+					    </li>
+					  </ul>
+					</nav>
+    			</div>
+    			<div class="col-md-5 col-lg-4">
+    				<div class="blog_sidebar">
+    					<div class="widget mb_60 d-inline-block p_30 bg_white full_row wow animated slideInUp">
+    						<h3 class="widget_title mb_30 text-capitalize">Follow Me</h3>
+    						<div class="socal_media">
+								<ul>
+									<li><a href="https://www.facebook.com/adrian.alvird"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="https://twitter.com/Adrianalvird"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="https://www.linkedin.com/in/adrianalvird"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+									<li><a href="https://www.instagram.com/adrian.alvird/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+									<li><a href="https://www.reddit.com/user/adrianalvird/"><i class="fa fa-reddit" aria-hidden="true"></i></a></li>
+									<li><a href="https://github.com/adrianalvird"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+									
+								</ul>
+							</div>
+    					</div>
+    					<div class="widget mb_60 d-inline-block p_30 primary_link bg_white full_row wow animated slideInUp">
+    						<h3 class="widget_title mb_30 text-capitalize">Category</h3>
+    						<div class="category_sidebar">
+								<ul>
+									<li><a href="#">Penetration Testing</a><span>(2)</span></li>
+									<li><a href="#">Bug Bounty Hunting</a><span>(07)</span></li>
+									<li><a href="#">Django Developing</a><span>(4)</span></li>
+									<li><a href="#">Open Source Contributing</a><span>(1)</span></li>
+									<li><a href="#">Linux </a><span>(4)</span></li>
+									<li><a href="#">Network Optimization </a><span>(2)</span></li>
+								</ul>
+							</div>
+    					</div>
+    					<div class="widget mb_60 d-inline-block p_30 primary_link bg_white full_row wow animated slideInUp">
+    						<h3 class="widget_title mb_30 text-capitalize">Recent Work</h3>
+    						<div class="recent_post">
+								<ul>
+									<li class="mb_30">
+										<a href="#">
+											<div class="post_img"><img src="{% static '/portfolio/nasa.jpeg' %}" alt="image"></div>
+											<div class="recent_post_content">
+												<h6>GooFuzz Tools | NASA Unauthorized Access Filesystem</h6>
+												<span class="color_gray">15 july 2022</span>
+											</div>
+										</a>
+									</li>
+									<li class="mb_30">
+										<a href="#">
+											<div class="post_img"><img src="{% static '/portfolio/azure.jpeg' %}" alt="image"></div>
+											<div class="recent_post_content">
+												<h6>For No Reason I joined Azure Developer League</h6>
+												<span class="color_gray">24 April 2021</span>
+											</div>
+										</a>
+									</li>
+									<li class="mb_30">
+										<a href="#">
+											<div class="post_img"><img src="{% static '/portfolio/htb.jpg' %}" alt="image"></div>
+											<div class="recent_post_content">
+												<h6>Breaking Down Again Hack The Box Machines</h6>
+												<span class="color_gray">20 June 2022</span>
+											</div>
+										</a>
+									</li>
+									<li class="mb_30">
+										<a href="#">
+											<div class="post_img"><img src="{% static '/portfolio/oscp.jpeg' %}" alt="image"></div>
+											<div class="recent_post_content">
+												<h6>Start Practicing Labs Play of Offensive Security</h6>
+												<span class="color_gray">24 July 2022</span>
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+    					</div>
+    					<div class="widget mb_60 d-inline-block p_30 bg_white primary_link full_row wow animated slideInUp">
+    						<h3 class="widget_title mb_30 text-capitalize">Archives</h3>
+    						<div class="archives">
+								<ul>
+									<li><a href="#">Bug Crowd Reports</a></li>
+									<li><a href="#">Cyber Security Certifications</a></li>
+									<li><a href="#">HacktheBox Labs</a></li>
+									<li><a href="#">Offensive Security Labs</a></li>
+									<li><a href="#">Penetration Testing</a></li>
+									<li><a href="#">Django Framework</a></li>
+								</ul>
+							</div>
+    					</div>
+    					<div class="widget mb_60 d-inline-block p_30 bg_white full_row wow animated slideInUp">
+    						<h3 class="widget_title mb_30 text-capitalize">Archives</h3>
+    						<div class="tags">
+								<ul>
+									<li><a href="#">HackTheBox</a></li>
+									<li><a href="#">eLearnInstitution</a></li>
+									<li><a href="#">Bug Crowd</a></li>
+									<li><a href="#">Django</a></li>
+									<li><a href="#">Cyber Security</a></li>
+									<li><a href="#">Social Engineering</a></li>
+									<li><a href="#">Annoymous Web Scrolling</a></li>
+									<li><a href="#">Dark Web Diving</a></li>	
+								</ul>
+							</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+     <!--    Blog Post End
+    ==================================================-->
+
+ 
+{% endblock %}

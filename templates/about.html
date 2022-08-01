@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% load static %}
+{% static "images" as baseUrl %}
+{% block body %}
+
+
+	<!--	Start About
+	===================================================-->
+	<section id="about" class="py_80 full_row bg_white">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+					<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
+	                    <h2 class="title text-uppercase"><span class="line_double mx-auto color_default">about</span>about myself</h2>
+	                    <span class="sub_title">Subhadeep Pramanik | Computer Science Hons | Cyber Security Enthusiast </span>
+	                </div>
+				</div>
+			</div>
+			<div class="about_one">
+				<div class="row">
+					<div class="col-md-7 col-lg-7">
+						<div class="myself color_secondery wow animated fadeInLeft">
+							<p>Hello I am Subhadeep Pramanik ,Students of<strong> Computer Science </strong>, Graduated From Memari College Under University Of Burdwan on Aug 2021 ..
+							<p><strong>I am a Learner With Excellent Problem Solving and Troubleshooting Skills </strong> .</p> 
+							<p> Cyber Security Enthusiast, CTF[ Capture The Flag] Player, <strong>Web Application Penetration Tester</strong> & Bug Bounty Hunter.  </p>
+							<p> Working On <strong>Linux</strong> [ Debian Based Distro ] for 4 Years, also have Little experience RedHat and Arch </p>
+							
+	
+							<p>Learned Penetration Testing From <strong> Offensive Security's PWK  AWAE, eLearnSecurity's eWPT eCPTX eCPPTv2, SANS's SEC201 SEC642 SEC660 SEC760,EC Council's WAHS ,And Other Udemy Courses</strong> as well as Others. </p>
+							<p> Perticipated On Google Cloud Platform Program [ GCP Qwkilabs] </p>
+							<p> Also Flask & Django-Backend Developer </p>
+							<br></br>
+						</div>
+						<div class="personal_info">
+							<div class="row">
+								<div class="col-md-12 col-lg-6">
+									<ul>
+										<li><span class="color_secondery">Name :</span> Subhadeep Pramanik</li>
+										<li><span class="color_secondery">Primary Email :</span> theadrianalvird@gmail.com</li>
+										<li><span class="color_secondery">Secondary Email</span> theadrianalvird@protonmail.com</li>	
+										<li><span class="color_secondery">Phone</span> +91 78669 53405</li>											
+									</ul>
+								</div>
+								<div class="col-md-12 col-lg-6">
+									<ul>
+										<li><span class="color_secondery">Date of Birth :</span> 26 April 1999</li>
+										<li><span class="color_secondery">Country</span> India </li>
+										<li><span class="color_secondery">State</span> West Bengal </li>
+										<li><span class="color_secondery">Address :</span>Debipur, Purba Bardhaman</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-5 col-lg-5">
+						<div class="profile_img personal_video wow animated fadeInRight">
+							<img src="{% static 'images/about/03.png' %}" alt="image">
+							
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--	End About
+	===================================================-->
+
+
+
+{% endblock %}

@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+{% static "images" as baseUrl %}
+{% block body %}
+
+
+
+<!-- Wrapper Start 
+==================================================-->
+<div id="page_wrapper">
+	<div class="row">
+	<!--	Start Main Banner 
+	==================================================-->
+	<section id="main_banner" class=" banner_water_effect background3 overlay_one">
+		<div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-md-12 col-lg-12 home-content text-left">
+                    <div class="mainbanner_content">
+                        <span class="pb_5 banner_title color_white">Subhadeep Pramanik</span>  
+                        <h1 class="cd-headline clip is-full-width text-uppercase">
+                            <span class="color_white">I am </span>
+                            <span class="cd-words-wrapper color_default">
+                                <b class="is-visible">CyberSecurity Enthusiast</b>
+                                <b>Bug Bounty Hunter</b>
+                                <b>Web Penetration Tester</b> <b>Social Engineering Attacker</b> <b>Reverse Engineering Expert</b> <b>System Adminstrator</b><b>Django Developer</b>
+                                
+                            </span>
+                        </h1>
+                        <p class="color_white mb_30">Thank You For Coming To My Website</p>
+                        <a class="btn btn-default" href="{% static '/MyResume.pdf' %}">Download CV</a>
+                        <a class="btn btn-default" href="/about">About Me</a>
+                        <a class="btn btn-default" href="/contact">Contact Me</a>
+                        <a class="btn btn-default" href="/portfolio">PortFolio</a> 
+			<a class="btn btn-default" href="/skills">Skills</a>
+			<a class="btn btn-default" href="/certification">Certfications</a>             			             
+                    </div>
+                </div>          
+            </div>
+        </div>
+    </section>
+	<!--	End Main Banner 
+	==================================================-->
+
+{% endblock %}
